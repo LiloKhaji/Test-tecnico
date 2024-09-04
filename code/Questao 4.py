@@ -24,8 +24,8 @@ faturamento = {
 percentuais, total_faturamento = calcular_percentuais(faturamento)
 
 # Exibe o total de faturamento
-print(f"Total de faturamento: R${total_faturamento:.2f}")
+print(f'Total de faturamento: R${total_faturamento:.2f}')
 
 # Exibe o percentual de cada estado
 for estado, percentual in percentuais.items():
-    print(f"{estado}: {percentual:.2f}%")
+    print(f'{estado}: {percentual:.2f}%')
